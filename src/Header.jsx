@@ -44,7 +44,7 @@ const Header = () => {
          </h1>
         </Link>
         <input
-          className="border-2 border-[#6d28d2] rounded-md shadow-lg mx-5 max-h-[30px] px-3 w-1/2 "
+          className="border-2 border-[#6d28d2] rounded-md shadow-lg mx-5 max-h-[30px] px-3 w-[250px] md:w-[400px] "
           type="search"
           placeholder="Search courses..."
           value={searchTerm}
