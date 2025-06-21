@@ -7,7 +7,8 @@ import "swiper/css/autoplay";
 import { Autoplay } from "swiper/modules";
 import img1 from './assets/image/pexels-pixabay-207691.jpg'
 import img2 from './assets/image/pexels-yaroslav-shuraev-6279991.jpg'
-
+import img3 from './assets/image/young-man-writing-notebook-study-session.jpg'
+import img4 from './assets/image/catalog-online-courses-isometric-icon-online-education-internet-learning_39422-1021.avif'
 const Interface = () => {
   const navigate = useNavigate();
 
@@ -29,14 +30,14 @@ const Interface = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="young-man-writing-notebook-study-session.jpg"
+            src={img3}
             alt="Slide 2"
             className="w-full h-full object-cover"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="catalog-online-courses-isometric-icon-online-education-internet-learning_39422-1021.avif"
+            src={img4}
             alt="Slide 3"
             className="w-full h-full object-cover"
           />
