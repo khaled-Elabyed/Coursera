@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import store from './Store.jsx'
 import { Provider } from 'react-redux';
-import analytics from './Firebaseconfig.jsx'
+import analytics from './firebaseconfig.jsx'
 
 
 
