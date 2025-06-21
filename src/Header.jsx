@@ -39,12 +39,12 @@ const Header = () => {
     <div className="flex flex-col items-center gap-4 py-4 relative bg-white z-50">
       <div className="flex justify-around items-center w-full max-w-screen-xl px-6">
         <Link to="/Home">
-         <h1 className="w-[220px] text-center bg-[#6d28d2] rounded-lg shadow-lg text-white font-extrabold text-3xl">
+         <h1 className="w-[140px] p-1 md:w-[220px] text-center bg-[#6d28d2] rounded-lg shadow-lg text-white font-extrabold text-3xl">
           COURSERA
          </h1>
         </Link>
         <input
-          className="border-2 border-[#6d28d2] rounded-md shadow-lg max-h-[30px] px-3 w-1/2"
+          className="border-2 border-[#6d28d2] rounded-md shadow-lg max-h-[30px] px-3 w-1/4 md:w-1/2 "
           type="search"
           placeholder="Search courses..."
           value={searchTerm}
