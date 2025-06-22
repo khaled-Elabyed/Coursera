@@ -54,7 +54,7 @@ const Header = () => {
           }}
         />
 
-        <div className="text-2xl text-[#6d28d2] flex gap-8 items-center">
+        <div className="text-lg md:text-2xl text-[#6d28d2] vertical-center flex gap-2 md:gap-8 items-center">
           <Link to="/cart" className="relative text-2xl text-[#6d28d2]">
             <FiShoppingCart />
             <span className="absolute -top-2 -right-3 bg-red-600 text-white text-xs w-5 h-5 flex items-center justify-center rounded-full">
@@ -63,7 +63,7 @@ const Header = () => {
           </Link>
           <button
             onClick={handleLogout}
-            className="bg-white font-semibold text-purple-700 px-4 py-2 rounded-md hover:bg-purple-100 transition"
+            className="bg-white font-semibold text-purple-700 px-1 md:px-4 py-2 rounded-md hover:bg-purple-100 transition"
           >
             Logout
           </button>
