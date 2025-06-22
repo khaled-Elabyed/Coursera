@@ -37,7 +37,7 @@ const Header = () => {
 
   return (
     <div className="flex flex-col items-center gap-4 py-4 relative bg-white z-50">
-      <div className="flex justify-around items-center w-full max-w-screen-xl px-6">
+      <div className="flex justify-around items-center w-full max-w-screen-xl px-2 md:px-6">
         <Link to="/Home">
          <h1 className="w-[120px]  font-medium text-xl p-1 md:w-[220px] text-center bg-[#6d28d2] rounded-lg shadow-lg text-white md:font-extrabold md:text-3xl">
           COURSERA
